@@ -1,9 +1,9 @@
 import React from 'react'
 
-function BookShow() {
+function BookShow({book}) {
   return (
-    <div>
-      book show
+    <div className='book-show'>
+     {book.title}
     </div>
   )
 }
